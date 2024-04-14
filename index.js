@@ -5,4 +5,4 @@ const query = await inquirer.prompt([{
         type: 'input',
         name: 'name',
     }]);
-console.log(`Hello ${query.name}`);
+console.log(`Hello the name is ${query.name}`);

@@ -9,4 +9,6 @@ const query = await inquirer.prompt([{
 
 }]);
 
-console.log(`Hello ${query.name}`);
+console.log(`Hello the name is ${query.name}`);
+
+
